@@ -1,0 +1,8 @@
+model:
+  type: azure_openai
+  name: gpt-4o
+decoding:
+  temperature: 0.1
+  streaming: False
+  top_p: 0.3
+  top_k: 0.6

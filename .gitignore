@@ -1,0 +1,17 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Environment variables
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# SQLite database files
+*.sqlite
+*.sqlite3
+*.db

@@ -47,7 +47,7 @@ class VectorStoreRetriever:
             {**self._docs[idx], "similarity": scores[idx]} for idx in top_k_idx_sorted
         ]
 
-llm = openai.Client(api_key="")
+llm = openai.Client(api_key=os.getenv("OPENAI_API_KEY"))
     
 retriever = VectorStoreRetriever.from_docs(docs, llm)
 
